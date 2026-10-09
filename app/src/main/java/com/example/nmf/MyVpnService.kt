@@ -100,6 +100,7 @@ class MyVpnService : VpnService() {
             vpnInterface = builder.establish()
             if (vpnInterface != null) {
                 VpnState.setRunning(true)
+                VpnPreferences.setVpnActive(applicationContext, true)
                 startPacketProcessing()
                 Log.d(TAG, "VPN DNS iniciada con éxito. Tráfico no-DNS fluye normalmente por la interfaz física.")
             } else {
@@ -124,6 +125,7 @@ class MyVpnService : VpnService() {
         vpnInterface = null
 
         VpnState.setRunning(false)
+        VpnPreferences.setVpnActive(applicationContext, false)
         stopForeground(STOP_FOREGROUND_REMOVE)
         stopSelf()
         Log.d(TAG, "VPN detenida")
