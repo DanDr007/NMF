@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NMF</string>
+    <string name="status_off">Apagado</string>
+    <string name="status_on">Encendido</string>
+</resources>
