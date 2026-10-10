@@ -14,11 +14,10 @@ A diferencia de las aplicaciones tradicionales de control parental, **Focus Filt
 
 ## 📸 Capturas de Pantalla
 
-> **Instrucciones:** Coloca las imágenes correspondientes en la carpeta `.github/images/` dentro del repositorio con los nombres indicados abajo.
 
 | Pantalla Principal (Inactiva) | Pantalla Principal (Activa) | Retardo de 60s (Reflexión) | Administración de Sitios |
 | :---: | :---: | :---: | :---: |
-| ![Main Inactive](.github/images/main_screen_inactive.png) | ![Main Active](.github/images/main_screen_active.png) | ![Hold Delay](.github/images/hold_delay.png) | ![Blocked Sites](.github/images/blocked_sites.png) |
+| ![Main Inactive](.github/images/main_screen_inactive.jpeg) | ![Main Active](.github/images/main_screen_active.jpeg) | ![Hold Delay](.github/images/hold_delay.jpg) | ![Blocked Sites](.github/images/blocked_sites.jpeg) |
 
 ---
 
