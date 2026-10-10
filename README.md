@@ -17,7 +17,7 @@ A diferencia de las aplicaciones tradicionales de control parental, **Focus Filt
 
 | Pantalla Principal (Inactiva) | Pantalla Principal (Activa) | Retardo de 60s (Reflexión) | Administración de Sitios |
 | :---: | :---: | :---: | :---: |
-| ![Main Inactive](.github/images/main_screen_inactive.jpeg) | ![Main Active](.github/images/main_screen_active.jpeg) | ![Hold Delay](.github/images/hold_delay.jpg) | ![Blocked Sites](.github/images/blocked_sites.jpeg) |
+| ![Main Inactive](.github/images/blocked_sites.jpeg) | ![Main Active](.github/images/main_screen_active.jpeg) | ![Hold Delay](.github/images/hold_delay.jpeg) | ![Blocked Sites](.github/images/main_screen_inactive.jpeg) |
 
 ---
 
