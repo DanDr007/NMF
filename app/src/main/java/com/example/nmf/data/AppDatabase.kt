@@ -31,13 +31,38 @@ abstract class AppDatabase : RoomDatabase() {
                             CoroutineScope(Dispatchers.IO).launch {
                                 val dao = getDatabase(context).blockedSiteDao()
                                 val initialDomains = listOf(
-                                    "reddit.com",
-                                    "instagram.com",
-                                    "x.com",
-                                    "facebook.com",
+
+                                    // Sitios de video para adultos más transitados
                                     "pornhub.com",
                                     "xvideos.com",
                                     "xnxx.com",
+                                    "xhamster.com",
+                                    "redtube.com",
+                                    "youporn.com",
+                                    "spankbang.com",
+                                    "eporner.com",
+                                    "tube8.com",
+                                    "daftsex.com",
+                                    "tnaflix.com",
+
+                                    // Plataformas de suscripción y creadores
+                                    "onlyfans.com",
+                                    "fansly.com",
+
+                                    // Cams y streaming
+                                    "chaturbate.com",
+                                    "stripchat.com",
+                                    "livejasmin.com",
+                                    "bongacams.com",
+                                    "camsoda.com",
+
+                                    // Comunidades e imágenes
+                                    "rule34.xxx",
+                                    "danbooru.donmai.us",
+                                    "gelbooru.com",
+                                    "toonx.net",
+                                    "chochox.com",
+                                    "allporncomics.com"
                                 )
                                 initialDomains.forEach { domain ->
                                     dao.insertSite(BlockedSite(domain = domain))
